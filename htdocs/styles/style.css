@@ -1,0 +1,77 @@
+body {
+background: #1f1f1f url(../images/background.png);
+font-family: 'Open Sans', sans-serif;
+font-size: 14px;
+line-height: 20px;
+}
+
+.content {
+position: relative;
+box-shadow: 0 0 20px rgba(0,0,0,0.8);
+-moz-box-shadow: 0 0 20px rgba(0,0,0,0.8);
+-webkit-box-shadow: 0 0 20px rgba(0,0,0,0.8);
+border-radius: 5px;
+height: 800px;
+background-color: #efefef;
+margin: 0 auto;
+margin-top: 75px;
+width: 25%;
+padding: 5px;
+}
+
+.content a {
+color: black;
+}
+
+.box a {
+color: white;
+}
+
+#txtarea
+{   
+margin:10px;
+padding: 8px;
+border: 3px solid #cccccc;
+line-height: 130%;
+font-size: 13px;	
+background: rgba(255,255,255,0.8);
+box-shadow: 0 0 20px rgba(0,0,0,0.8);
+-moz-box-shadow: 0 0 20px rgba(0,0,0,0.8);
+-webkit-box-shadow: 0 0 20px rgba(0,0,0,0.8);
+border-radius: 5px;
+}
+
+.box
+{
+background-color: #545a5f;
+border: 1px solid rgba(0,0,0, .05);
+border-radius: 2px;
+margin:	20px;
+color: white;
+padding: 10px;
+}
+
+#g1 {
+width:300px; height:220px;
+margin: 0 auto;
+}
+
+input[type="text"], input[type="password"], input[type="submit"] , input[type="button"]{
+width:200px;
+display:block;
+border: 1px solid #999;
+height: 25px;
+box-shadow: 0 0 20px rgba(0,0,0,0.8);
+-moz-box-shadow: 0 0 20px rgba(0,0,0,0.8);
+-webkit-box-shadow: 0 0 20px rgba(0,0,0,0.8);
+border-radius: 5px;
+margin: 0 auto;
+}
+
+h3 {
+-webkit-margin-before: 0;
+}
+
+img {
+border-width:0;
+}
